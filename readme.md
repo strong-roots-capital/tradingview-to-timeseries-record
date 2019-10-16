@@ -11,7 +11,10 @@ npm install @strong-roots-capital/tradingview-to-timeseries-record
 ## Use
 
 ```typescript
-import { tradingviewToTimeseriesRecord } from '@strong-roots-capital/tradingview-to-timeseries-record'
+import {
+    tradingviewToTimeseriesRecord,
+    TradingviewRecord
+} from '@strong-roots-capital/tradingview-to-timeseries-record'
 
 const timeseriesRecord = tradingviewToTimeseriesRecord(tvRecord)
 ```
