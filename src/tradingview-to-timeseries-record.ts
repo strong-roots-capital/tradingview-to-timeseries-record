@@ -14,6 +14,7 @@ export interface TradingviewRecord {
     high: string;
     low: string;
     close: string;
+    volume?: string;
 }
 
 
@@ -39,6 +40,6 @@ export function tradingviewToTimeseriesRecord(
         High: Maybe.fromPredicate(S.complement (Number.isNaN), Number.parseFloat(data.high)).orDefault(-1),
         Low: Maybe.fromPredicate(S.complement (Number.isNaN), Number.parseFloat(data.low)).orDefault(-1),
         Close: Maybe.fromPredicate(S.complement (Number.isNaN), Number.parseFloat(data.close)).orDefault(-1),
-        Volume: 0
+        Volume: Maybe.fromNullable(data.volume).chain(volume => Maybe.fromPredicate(S.complement (Number.isNaN), Number.parseFloat(volume))).orDefault(0)
     }
 }

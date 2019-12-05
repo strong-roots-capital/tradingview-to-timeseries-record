@@ -16,13 +16,15 @@ test('should convert tradingview record to timeseries record', t => {
     const high = 100
     const low = 50
     const close = 69
+    const volume = 234234
 
     const tv: TradingviewRecord = {
         time: time.toString(),
         open: open.toString(),
         high: high.toString(),
         low: low.toString(),
-        close: close.toString()
+        close: close.toString(),
+        volume: volume.toString()
     }
     const ts: TimeseriesRecord = {
         Time: time * 1000,
@@ -30,7 +32,7 @@ test('should convert tradingview record to timeseries record', t => {
         High: high,
         Low: low,
         Close: close,
-        Volume: 0
+        Volume: volume
     }
     t.deepEqual(
         ts,
