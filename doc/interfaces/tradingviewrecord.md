@@ -15,6 +15,7 @@
 * [low](tradingviewrecord.md#low)
 * [open](tradingviewrecord.md#open)
 * [time](tradingviewrecord.md#time)
+* [volume](tradingviewrecord.md#volume)
 
 ---
 
@@ -26,7 +27,7 @@
 
 **● close**: *`string`*
 
-*Defined in [tradingview-to-timeseries-record.ts:16](https://github.com/strong-roots-capital/tradingview-to-timeseries-record/blob/e53d034/src/tradingview-to-timeseries-record.ts#L16)*
+*Defined in [tradingview-to-timeseries-record.ts:16](https://github.com/strong-roots-capital/tradingview-to-timeseries-record/blob/f2b8193/src/tradingview-to-timeseries-record.ts#L16)*
 
 ___
 <a id="high"></a>
@@ -35,7 +36,7 @@ ___
 
 **● high**: *`string`*
 
-*Defined in [tradingview-to-timeseries-record.ts:14](https://github.com/strong-roots-capital/tradingview-to-timeseries-record/blob/e53d034/src/tradingview-to-timeseries-record.ts#L14)*
+*Defined in [tradingview-to-timeseries-record.ts:14](https://github.com/strong-roots-capital/tradingview-to-timeseries-record/blob/f2b8193/src/tradingview-to-timeseries-record.ts#L14)*
 
 ___
 <a id="low"></a>
@@ -44,7 +45,7 @@ ___
 
 **● low**: *`string`*
 
-*Defined in [tradingview-to-timeseries-record.ts:15](https://github.com/strong-roots-capital/tradingview-to-timeseries-record/blob/e53d034/src/tradingview-to-timeseries-record.ts#L15)*
+*Defined in [tradingview-to-timeseries-record.ts:15](https://github.com/strong-roots-capital/tradingview-to-timeseries-record/blob/f2b8193/src/tradingview-to-timeseries-record.ts#L15)*
 
 ___
 <a id="open"></a>
@@ -53,7 +54,7 @@ ___
 
 **● open**: *`string`*
 
-*Defined in [tradingview-to-timeseries-record.ts:13](https://github.com/strong-roots-capital/tradingview-to-timeseries-record/blob/e53d034/src/tradingview-to-timeseries-record.ts#L13)*
+*Defined in [tradingview-to-timeseries-record.ts:13](https://github.com/strong-roots-capital/tradingview-to-timeseries-record/blob/f2b8193/src/tradingview-to-timeseries-record.ts#L13)*
 
 ___
 <a id="time"></a>
@@ -62,7 +63,16 @@ ___
 
 **● time**: *`string`*
 
-*Defined in [tradingview-to-timeseries-record.ts:12](https://github.com/strong-roots-capital/tradingview-to-timeseries-record/blob/e53d034/src/tradingview-to-timeseries-record.ts#L12)*
+*Defined in [tradingview-to-timeseries-record.ts:12](https://github.com/strong-roots-capital/tradingview-to-timeseries-record/blob/f2b8193/src/tradingview-to-timeseries-record.ts#L12)*
+
+___
+<a id="volume"></a>
+
+### `<Optional>` volume
+
+**● volume**: *`undefined` \| `string`*
+
+*Defined in [tradingview-to-timeseries-record.ts:17](https://github.com/strong-roots-capital/tradingview-to-timeseries-record/blob/f2b8193/src/tradingview-to-timeseries-record.ts#L17)*
 
 ___
 
