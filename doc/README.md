@@ -43,7 +43,7 @@ const timeseriesRecord = tradingviewToTimeseriesRecord(tvRecord)
 
 ▸ **tradingviewToTimeseriesRecord**(data: *[TradingviewRecord](interfaces/tradingviewrecord.md)*): `TimeseriesRecord`
 
-*Defined in [tradingview-to-timeseries-record.ts:34](https://github.com/strong-roots-capital/tradingview-to-timeseries-record/blob/f2b8193/src/tradingview-to-timeseries-record.ts#L34)*
+*Defined in [tradingview-to-timeseries-record.ts:34](https://github.com/strong-roots-capital/tradingview-to-timeseries-record/blob/f7d3726/src/tradingview-to-timeseries-record.ts#L34)*
 
 Convert a Tradingview record to Timeseries Record.
 
